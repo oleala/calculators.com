@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initiall-scale=1.0">
+        <title>Palindrome</title>
+        <link rel="stylesheet" href="style27.css">
+
+        <script src="jsone.js" defer></script>
+    </head>
+    <body>   
+        <input type="checkbox" id="nav-hamburger">
+       <label for="nav-hamburger" class="button--hamburger">&#8801;</label>
+       <h2>Random converters</h2>
+       <nav id="navbar">
+  <header>
+               <h1>Random converters</h1>
+ </header>
+           <div class="top">
+               <a class="nav-link" href="#palindrome_checker" onclick="hideNav()">Palindrome checker</a>
+               <a class="nav-link" href="#roman_numeral_converter" onclick="hideNav()">Roman Numeral Converter</a>
+               <a class="nav-link" href="#caesars_cipher" onclick="hideNav()">Caesars Cipher</a>
+            </div>
+       </nav>
+       <main id="main-doc">
+           <section class="main-section" id="palindrome_checker">
+            <div class="glass">
+            <input id="inputString" type="text" placeholder="Type a word" required> </input>
+            <input id="submitButton" type="submit" value="Check now" class="aubmit-button"> </input>
+            <div id="notification"></div>
+            <div id="displayWord"></div> 
+           </div>
+            <br>
+            </section>
+ <section class="main-section" id="roman_numeral_converter">
+            <div class="glass">
+                <input type="number" id="inputStringa" placeholder="Type a number" min="1" required></input>
+                <input type="submit" id="submitButtona" value="Check now" class="submit-button1"> </input>
+                <div id="notificationa"></div>
+            </div>
+</section>
+<section class="main-section" id="caesars_cipher">
+            <div class="glass">
+                <input type="text" id="inputStringb" placeholder="Type a text" required></input>
+                <input type="submit" id="submitButtonb" value="Check now" class="submit-button2"></input>
+                <div id="notificationb"></div>
+</div>
+<div class="foot">
+    <h3>©2022 Project.All Rights Reserved.</h3>
+</div>
+</section>
+ </main>
+ </body>
+</html>
